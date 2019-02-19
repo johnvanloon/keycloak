@@ -52,13 +52,13 @@
         <dependency>
             <groupId>org.jboss.web</groupId>
             <artifactId>jbossweb</artifactId>
-            <version>7.0.17.Final</version>
+            <version>8.0.0.Alpha1</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.jboss.as</groupId>
             <artifactId>jboss-as-web</artifactId>
-            <version>7.1.2.Final</version>
+            <version>7.2.0.Final</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
