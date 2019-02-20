@@ -223,7 +223,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -275,7 +274,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -287,7 +285,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -311,7 +308,7 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
+
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -323,7 +320,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -335,7 +331,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -347,7 +342,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -367,7 +361,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -379,7 +372,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -391,7 +383,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -448,7 +439,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -460,7 +450,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -478,7 +467,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -490,7 +478,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -502,7 +489,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -859,7 +845,6 @@
                     <exclusion>
                         <groupId>jackson-databind</groupId>
                         <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -977,13 +962,6 @@
                 <groupId>org.keycloak</groupId>
                 <artifactId>keycloak-jboss-adapter-core</artifactId>
                 <version>${project.version}</version>
-                <exclusions>
-                    <exclusion>
-                        <groupId>jackson-databind</groupId>
-                        <artifactId>jackson-databind</artifactId>
-                        <version>2.9.5</version>
-                    </exclusion>
-                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.keycloak</groupId>
