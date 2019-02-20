@@ -219,6 +219,13 @@
                 <groupId>org.jboss</groupId>
                 <artifactId>jboss-dmr</artifactId>
                 <version>${jboss.dmr.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>com.github.relaxng</groupId>
@@ -264,11 +271,25 @@
                 <groupId>org.jboss.spec.javax.transaction</groupId>
                 <artifactId>jboss-transaction-api_1.2_spec</artifactId>
                 <version>${jboss-transaction-api_1.2_spec}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.spec.javax.ws.rs</groupId>
                 <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
                 <version>${jboss-jaxrs-api_2.1_spec}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
@@ -287,22 +308,48 @@
                         <groupId>org.slf4j</groupId>
                         <artifactId>slf4j-simple</artifactId>
                     </exclusion>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-multipart-provider</artifactId>
                 <version>${resteasy.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-jackson2-provider</artifactId>
                 <version>${resteasy.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
                 <artifactId>resteasy-client</artifactId>
                 <version>${resteasy.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.resteasy</groupId>
@@ -317,17 +364,36 @@
                         <groupId>io.undertow</groupId>
                         <artifactId>undertow-core</artifactId>
                     </exclusion>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
                 </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.spec.javax.xml.bind</groupId>
                 <artifactId>jboss-jaxb-api_2.3_spec</artifactId>
                 <version>${jboss.spec.javax.xml.bind.jboss-jaxb-api_2.3_spec.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
                 <artifactId>jboss-jsp-api_2.3_spec</artifactId>
                 <version>${jboss.spec.javax.servlet.jsp.jboss-jsp-api_2.3_spec.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.keycloak</groupId>
@@ -378,11 +444,25 @@
                 <groupId>org.jboss.spec.javax.servlet</groupId>
                 <artifactId>jboss-servlet-api_3.0_spec</artifactId>
                 <version>${servlet.api.30.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.spec.javax.servlet</groupId>
                 <artifactId>jboss-servlet-api_4.0_spec</artifactId>
                 <version>${servlet.api.40.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.picketlink</groupId>
@@ -394,16 +474,37 @@
                 <groupId>org.jboss.logging</groupId>
                 <artifactId>jboss-logging</artifactId>
                 <version>${jboss.logging.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.logging</groupId>
                 <artifactId>jboss-logging-annotations</artifactId>
                 <version>${jboss.logging.tools.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.jboss.logging</groupId>
                 <artifactId>jboss-logging-processor</artifactId>
                 <version>${jboss.logging.tools.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>log4j</groupId>
@@ -754,6 +855,13 @@
                 <groupId>org.jboss.aesh</groupId>
                 <artifactId>aesh</artifactId>
                 <version>${jboss.aesh.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.aesh</groupId>
@@ -869,6 +977,13 @@
                 <groupId>org.keycloak</groupId>
                 <artifactId>keycloak-jboss-adapter-core</artifactId>
                 <version>${project.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>jackson-databind</groupId>
+                        <artifactId>jackson-databind</artifactId>
+                        <version>2.9.5</version>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.keycloak</groupId>
