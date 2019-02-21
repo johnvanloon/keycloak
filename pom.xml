@@ -1720,7 +1720,7 @@
                                 <rules>
                                     <bannedDependencies>
                                         <excludes>
-                                            <exclude>com.fasterxml.jackson.core:jackson-databind:[0.0,2.9.5)</exclude>
+                                            <exclude>com.fasterxml.jackson.core:jackson-databind:2.9.5</exclude>
                                         </excludes>
                                     </bannedDependencies>
                                 </rules>
