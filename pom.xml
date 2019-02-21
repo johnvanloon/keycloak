@@ -1711,6 +1711,21 @@
                                 </rules>
                             </configuration>
                         </execution>
+                        <execution>
+                            <id>enforce-version</id>
+                            <goals>
+                                <goal>enforce</goal>
+                            </goals>
+                            <configuration>
+                                <rules>
+                                    <bannedDependencies>
+                                        <excludes>
+                                            <exclude>com.fasterxml.jackson.core:jackson-databind:[0.0,2.9.5)</exclude>
+                                        </excludes>
+                                    </bannedDependencies>
+                                </rules>
+                            </configuration>
+                        </execution>
                     </executions>
                 </plugin>
                 <plugin>
