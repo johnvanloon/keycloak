@@ -1721,6 +1721,8 @@
                                     <bannedDependencies>
                                         <excludes>
                                             <exclude>com.fasterxml.jackson.core:jackson-databind:[2.9.5]</exclude>
+                                            <exclude>com.fasterxml.jackson.core:jackson-core:[2.9.5]</exclude>
+                                            <exclude>com.fasterxml.jackson.datatype:jackson-datatype-jsr310:[2.9.5]</exclude>
                                         </excludes>
                                     </bannedDependencies>
                                 </rules>
